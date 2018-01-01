@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaSample", "MediaSample\MediaSample.csproj", "{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternPlayer", "..\..\AIVI_VMS\AIVI_VMS\patternPlayer\PatternPlayer.csproj", "{80F60028-AEE5-4A98-AE67-8EF425F74858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.FFME.Windows", "..\..\ffmpegclientview\ffmediaelement-master\Unosquare.FFME.Windows\Unosquare.FFME.Windows.csproj", "{3AB1B146-0E10-4F34-A020-7207F8178C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.FFME.Windows.Sample", "..\..\ffmpegclientview\ffmediaelement-master\Unosquare.FFME.Windows.Sample\Unosquare.FFME.Windows.Sample.csproj", "{DC7D71DA-3D51-4252-BFC8-52CA269A311F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{8BF26916-5094-4A04-B148-C19DCCC53A95}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ffmpegclientview\ffmediaelement-master\appveyor.yml = ..\..\ffmpegclientview\ffmediaelement-master\appveyor.yml
+		..\..\ffmpegclientview\ffmediaelement-master\docfx.json = ..\..\ffmpegclientview\ffmediaelement-master\docfx.json
+		..\..\ffmpegclientview\ffmediaelement-master\ffme.win.nuspec = ..\..\ffmpegclientview\ffmediaelement-master\ffme.win.nuspec
+		..\..\ffmpegclientview\ffmediaelement-master\ffmeplay.png = ..\..\ffmpegclientview\ffmediaelement-master\ffmeplay.png
+		..\..\ffmpegclientview\ffmediaelement-master\LICENSE = ..\..\ffmpegclientview\ffmediaelement-master\LICENSE
+		..\..\ffmpegclientview\ffmediaelement-master\README.md = ..\..\ffmpegclientview\ffmediaelement-master\README.md
+		..\..\ffmpegclientview\ffmediaelement-master\StyleCop.Analyzers.ruleset = ..\..\ffmpegclientview\ffmediaelement-master\StyleCop.Analyzers.ruleset
+		..\..\ffmpegclientview\ffmediaelement-master\test-suite.html = ..\..\ffmpegclientview\ffmediaelement-master\test-suite.html
+		..\..\ffmpegclientview\ffmediaelement-master\toc.yml = ..\..\ffmpegclientview\ffmediaelement-master\toc.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unosquare.FFME.Common", "..\..\ffmpegclientview\ffmediaelement-master\Unosquare.FFME.Common\Unosquare.FFME.Common.csproj", "{76B2DB70-C8AB-4517-8AFB-051383E496B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.FFME.MacOS.Sample", "..\..\ffmpegclientview\ffmediaelement-master\Unosquare.FFME.MacOS.Sample\Unosquare.FFME.MacOS.Sample.csproj", "{A7497D7F-64C1-4746-A323-7E5C743F5363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.FFME.MacOS", "..\..\ffmpegclientview\ffmediaelement-master\Unosquare.FFME.MacOS\Unosquare.FFME.MacOS.csproj", "{B1422238-50B9-4B01-A513-FFCB8631F1B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Debug|x64.Build.0 = Debug|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Release|x64.ActiveCfg = Release|Any CPU
+		{D5E3C3D3-4250-421C-9D8F-BB56EA3DFCAE}.Release|x64.Build.0 = Release|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Debug|x64.Build.0 = Debug|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Release|x64.ActiveCfg = Release|Any CPU
+		{80F60028-AEE5-4A98-AE67-8EF425F74858}.Release|x64.Build.0 = Release|Any CPU
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Debug|x64.ActiveCfg = Debug|x64
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Debug|x64.Build.0 = Debug|x64
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Release|x64.ActiveCfg = Release|x64
+		{3AB1B146-0E10-4F34-A020-7207F8178C7F}.Release|x64.Build.0 = Release|x64
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Debug|x64.ActiveCfg = Debug|x64
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Debug|x64.Build.0 = Debug|x64
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Release|x64.ActiveCfg = Release|x64
+		{DC7D71DA-3D51-4252-BFC8-52CA269A311F}.Release|x64.Build.0 = Release|x64
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Debug|x64.ActiveCfg = Debug|x64
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Debug|x64.Build.0 = Debug|x64
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{76B2DB70-C8AB-4517-8AFB-051383E496B7}.Release|x64.Build.0 = Release|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Debug|x64.Build.0 = Debug|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Release|x64.ActiveCfg = Release|Any CPU
+		{A7497D7F-64C1-4746-A323-7E5C743F5363}.Release|x64.Build.0 = Release|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Debug|x64.Build.0 = Debug|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Release|x64.ActiveCfg = Release|Any CPU
+		{B1422238-50B9-4B01-A513-FFCB8631F1B2}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E89E3EA-B5D6-4E75-8B7F-C1ED0D05D7D8}
+	EndGlobalSection
+EndGlobal
